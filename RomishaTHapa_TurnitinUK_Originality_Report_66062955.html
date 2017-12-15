@@ -1,0 +1,374 @@
+
+	
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="author" content="Turnitin, LLC" />
+    <meta name="keywords" content="" /> 
+    <meta name="description" content="" />
+    <meta name="viewport" content="width = initial-scale" />
+    <meta name="viewport" content="height = initial-scale" />
+    
+<title>TurnitinUK Originality Report</title>
+
+<base href="http://www.turnitinuk.com">
+<style type="text/css">
+	
+body	{
+	color: #000;
+	background: #ddd;
+	padding: 0;
+	border: 0;
+	font: 14px Arial, Verdana, sans-serif;
+	margin: 0;
+	text-align: center;
+	}
+	
+form	{
+	padding: 0;
+	margin: 0;
+	}
+	
+p	{
+	padding: .8em 1.5em;
+	margin: 0;
+	text-align: left;
+	}
+	
+img	{
+	border: 0;
+	padding: 0;
+	}
+
+div	{
+	padding: 0;
+	border: 0;
+	text-align: left;
+	}
+	
+strong	{
+	font-weight: bold;
+	}
+	
+h2	{
+	font-size: 15px;
+	margin: 20px 0 10px 20px;
+	}
+	
+a:link, a:visited	{
+	text-decoration: underline;
+	color: #00f;
+	}
+	
+a:hover, a:active	{
+	text-decoration: underline;
+	color: #888;
+	}
+	
+img#logo	{
+	float: right;
+	padding-right: 20px;
+	padding-top: 10px;
+	}
+	
+div#container	{
+	border: 1px solid #aaa;
+	width: 770px;
+	margin: 20px auto;
+	background: #fff;
+	padding: 10px 0;
+	}
+	
+div#top	{
+	background: #fff;
+	width: 7in;
+	margin: auto;
+	padding-bottom: 15px;
+	}
+	
+div#content	{
+	background: #fff;
+	}
+	
+#top p	{
+	padding: .3em 0 .3em 20px;
+	}
+
+#top span	{
+	padding-right: 35px;
+	}
+	
+#top p#orig	{
+	padding-top: 15px;
+	}
+	
+#orig span#score.red	{
+	border-right: 18px solid red;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.orange	{
+	border-right: 18px solid orange;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.yellow	{
+	border-right: 18px solid yellow;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.green	{
+	border-right: 18px solid green;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+#orig span#score.blue	{
+	border-right: 18px solid blue;
+	padding: .2em .5em;
+	margin: 0 1em;
+	background: white;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	}
+	
+div.divider	{
+	width: 7in;
+	border: 1px dotted #888;
+	margin: auto;
+	padding: 4px 0 4px 10px;
+	font-weight: bold;
+	background: #ddd;
+	font-size: 15px;
+	}
+	
+div.links	{
+	width: 7in;
+	margin: auto;
+	}
+	
+.links div	{
+	padding: 15px 20px 15px 20px;
+	border-bottom: 1px dotted #888;
+	}
+	
+.links div#last	{
+	padding: 15px 20px 20px 20px;
+	border-bottom: 0;
+	}
+	
+div.number	{
+	float: right;
+	background: white;
+	border: 1px solid #888;
+	margin: 0 0 0 20px;
+	padding: .1em .5em;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	}
+	
+div.number-l	{
+	float: left;
+	background: white;
+	border: 1px solid #888;
+	margin: 6px 16px 10px 0;
+	padding: .1em .5em;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	}
+	
+.links div p	{
+	padding: .2em 1.5em .4em 0;
+	}
+	
+.links div p#mess	{
+	padding: .2em 1.5em 0 0;
+	}
+	
+div#body	{
+	line-height: 1.5em;
+	width: 7in;
+	margin: auto;
+	padding-bottom: 20px;
+	}
+	
+#body p	{
+	color: #555;
+	padding-top: 30px;
+	line-height: 20px;
+	}
+
+	
+#body a	{
+	display: block;
+	color: red;
+	margin: 1em 3em;
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding: 1em 1em;
+	border: 1px dotted #888;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+	line-height: 26px;
+	background: #FFFFE5;
+	}
+
+#body span	{
+	color: #555;
+	font-weight: normal;
+	font-size: 14px;
+	}
+
+#body span.number	{
+	display: block;
+	float: right;
+	color: #000;
+	font-weight: normal;
+	border: 1px solid #888;
+	padding: 0 6px;
+	font-weight: bold;
+	margin-left: 15px;
+	font-size: .9em;
+	background: #fff;
+	}
+	
+#actions	{
+	display: none;
+	}
+
+</style>
+
+
+
+</head>
+
+<body id="or_print_report">
+
+
+<div id="container">
+
+<div id="top">
+    <div id="content">
+        <!-- ######### Top Body  ##########################--> 
+        <div id="top_body">
+            <p id="title">
+            <img src="https://www.turnitincdn.com/800404/static2.turnitin.com/r/build/images/814a4152b3aca062da5c4bcdcd07c82ecb_tiiuklogo.gif" id="logo" width="60">
+            TurnitinUK Originality Report
+            </p>
+                <div class="general_info">
+                    <p>
+                        <span>DDOOCP</span>
+                        
+                        by Romisha Thapa
+                        
+                    </p>
+                    <p>
+                        From Designing and Developing Object-Oriented Computer Programs (L4DC E)
+                    </p>
+                    <ul>
+                        <li>Processed on 17-Jan-2017  4:11 PM GMT</li>
+                        <li>ID: 66062955</li>
+                        <li>Word Count: 1610</li>
+                    </ul>
+                </div>
+                <div class="similarity_box">
+                    <div class="overall_similarity">
+                        <div class="color_box yellow">&nbsp;</div>
+                        <div class="similarity_title">Similarity Index</div>
+                        <div class="similarity_percent">35%</div>
+                    </div>
+                    <div class="similarity_by_source">
+                        <div class="similarity_title">Similarity by Source</div>
+                        <dl>
+                            <dt>Internet&nbsp;Sources:</dt>
+                            <dd>0%</dd>
+                            <div class="clear"></div>
+                            <dt>Publications:</dt>
+                            <dd>0%</dd>
+                            <div class="clear"></div>
+                            <dt>Student&nbsp;Papers:</dt>
+                            <dd>35%</dd>
+                            <div class="clear"></div>
+                        </dl>
+                    </div>
+                </div>
+                <div class="clear"></div>
+                                 
+        </div>
+        <!-- ######### END Top Body  ##########################--> 
+    </div>
+</div>
+
+<div class="divider">sources:</div>
+
+<div class="links">
+
+	<div>
+	<div class="number-l">1</div>
+	<p>12% match (student papers from 17-Jan-2017)</p>
+
+	<a style="color:red" href="/paperInfo.asp?r=35.7320229251552&svr=305&lang=en_us&oid=66042283&perc=12">Submitted to Softwarica College of IT & E-Commerce on 2017-01-17</a>
+
+	</div>
+	<div>
+	<div class="number-l">2</div>
+	<p>10% match (student papers from 17-Jan-2017)</p>
+
+	<a style="color:green" href="/paperInfo.asp?r=35.7320229251552&svr=305&lang=en_us&oid=66041279&perc=10">Submitted to Softwarica College of IT & E-Commerce on 2017-01-17</a>
+
+	</div>
+	<div>
+	<div class="number-l">3</div>
+	<p>8% match (student papers from 17-Jan-2017)</p>
+
+	<a style="color:blue" href="/paperInfo.asp?r=35.7320229251552&svr=305&lang=en_us&oid=66037661&perc=8">Submitted to Softwarica College of IT & E-Commerce on 2017-01-17</a>
+
+	</div>
+	<div id="last">
+	<div class="number-l">4</div>
+	<p>5% match (student papers from 17-Jan-2017)</p>
+
+	<a style="color:brown" href="/paperInfo.asp?r=35.7320229251552&svr=305&lang=en_us&oid=66039491&perc=5">Submitted to Softwarica College of IT & E-Commerce on 2017-01-17</a>
+
+	</div>
+
+</div>
+
+
+
+<div class="divider">paper text:</div>
+<div id="body">
+Introduction Budget Manager Application is an application which is capable of recording transactions of users across various account types. Transaction Data relates to the income and expenditure of family or individual. Account types that can be created are – joint (shared between pairs), discretionary (single user) &amp; home (multiple users with aggregated view). It has a two systems of recording data that are transaction and trigger. In transaction section users keep the input of expenditures and incomes where as in trigger section monthly ending balance is estimated. For the estimation of balance monthly income and expenditure is recorded from which monthly average balance is calculated and then helps to estimate remaining balance or losses across a period of 6 months. Both transaction and trigger contain a summery where total income and outcome is recorded and gives net income of home and personal users. In this system specific users with accounts discretionary, home and shared are allowed to create, edit and delete the data. If the users with several amounts wished to delete their user account it allows to allocate surplus money to an account according to the user’s choice. Which has simplified the act of keeping the record for home and individual users. 1st Task: Source code Main_Dashboard NetSummeryBudget PanelTransactionDetails PanelTriggerDetails: StackTransaction StackTriggers TransacDealer TransactionEntryForm: Transaction TrigDealer: Trigger TriggerEntryForm UserAccount UserFormLogin UserFormRegistration 2nd Task: Testing Testing1: <a href="javascript:openDSC(66041279, 2, '1907');" onmouseover="doRollover(2);" onmouseout="undoRollover(2);" id="1907" name="2" style="color:green" class="green"><span class="b-ref">2</span>Testing class:<span> UserAccount </span>Testing type: Black &amp; White Box # Method Test Data Input type Expected Outcome 1 String<span> cipher </span>_Password(String password)<span> “Romisha” </span>Valid Encrypted password is returned. Execution Source_ Code Output Test Results # Method Test Data Input type Expected Outcome Outcome as expected? 1 String<span> cipher </span>_Password(String password)<span> “Romisha” </span>Valid Encrypted password is returned. Yes Test Summary</a> No errors were found during the execution of testing. <a href="javascript:openDSC(66041279, 2, '1952');" onmouseover="doRollover(2);" onmouseout="undoRollover(2);" id="1952" name="2" style="color:green" class="green"><span class="b-ref">2</span>Test Suite No.2: Testing class:<span> UserAccount </span>Testing type: Black &amp; White box # Method Test Data Input type Expected Outcome 1 String<span> decipher </span>_Password() Encrypted form of<span> “Romisha” </span>Valid<span> Deciphered </span>password is returned. Test Execution Source _Code Output Test Results # Method Test Data Input type Expected Outcome Outcome as expected? 1 String<span> decipher </span>_Password() Encrypted form of<span> “Romisha” </span>Valid<span> Deciphered </span>password is returned. Yes Test Summary<span> As from above </span>test</a> results it can be deducted that the method tested showed matching expected outcome with actual outcome more over conducting blackbox test simultaneously resulted in every branches and lines in the method also being tested therefore both black and white box testing was executed successfully. Test Suite No.3: Testing class: UserFormRegistration Testing type: GUI Testing ? # Class function being tested Test Data Input type Expected Outcome 1 UserFormRegistration (Validation) “”, “”, “”, “” Null Message must be displayed( Null entry not acceptable ) 2 UserFormRegistration(Validation) “Romisha“,”|”, “Romisha”, “Home” Invalid Message with <a href="javascript:openDSC(66039491, 2, '4929');" onmouseover="doRollover(4);" onmouseout="undoRollover(4);" id="4929" name="4" style="color:brown" class="brown"><span class="b-ref">4</span>reserved characters not allowed must be<span> displayed. </span>3<span> UserFormRegistration </span>(Validation)</a> “Romisha”, “Romisha”, “Romisha”, <a href="javascript:openDSC(66042283, 2, '6037');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="6037" name="1" style="color:red" class="red"><span class="b-ref">1</span>“Home” Valid<span> Populated </span>table Test Execution<span> with </span>output Case 1 Case 2 Case 3 Test Results # Class function being tested Test Data Input type Expected Outcome Outcome as expected? 1<span> UserFormRegistration “”, “”, “”, “” </span>Null</a> Message must be displayed( Null entry not acceptable ) Yes 2 UserFormRegistration "Romisha“,”|”, “Romisha”, “Home” Invalid Message with reserved characters not allowed must be displayed. Yes 3 UserFormRegistration “Romisha”, “Romisha”, “Romisha”, “Home” Valid Populated table Yes Test Summary As from above test results it can be deducted that the method tested showed matching expected outcome with actual outcome more over conducting blackbox test simultaneously resulted in every branches and lines in the method also being tested therefore both black and white box testing was executed successfully. Test Suite no: 4. Testing class: UserFormRegistration Testing type: GUI Testing ? Jframe’s actionperformed(ActionEvent e) method contains logic for validating null input reserved character input # <a href="javascript:openDSC(66041279, 2, '2066');" onmouseover="doRollover(2);" onmouseout="undoRollover(2);" id="2066" name="2" style="color:green" class="green"><span class="b-ref">2</span>Class function being tested Test Data Input type Expected Outcome 1<span> UserFormRegistration </span>(Account Registration)<span> “Romisha”, “Romisha”, “Romisha”, </span>“Home” Valid Connection information &amp; login details must be written in<span> respective </span>CSV files &amp; new blank files must be created for transaction &amp; trigger. Execution Output Transaction &amp; Trigger files created: Connection information written: Login details written: Test Results</a> Test Summary As from above test results it can be deducted that the method tested showed matching expected outcome with actual outcome more over conducting blackbox test simultaneously resulted in every branches and lines in the method also being tested therefore both black and white box testing was executed successfully. <a href="javascript:openDSC(66037661, 2, '3004');" onmouseover="doRollover(3);" onmouseout="undoRollover(3);" id="3004" name="3" style="color:blue" class="blue"><span class="b-ref">3</span>Test Suite No.5: Testing class:<span> Account </span>Testing type: Black &amp; White Box Test Execution Source Code Output Test Results Test Summary<span> As </span>from<span> above test results </span>it<span> can be deducted </span>that</a> the method tested showed matching expected outcome with actual outcome more over conducting blackbox test simultaneously resulted in every branches and lines in the method also being tested therefore both black and white box testing was executed successfully. <a href="javascript:openDSC(66042283, 2, '6164');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="6164" name="1" style="color:red" class="red"><span class="b-ref">1</span>Test Suite No.<span> 6: </span>Testing class:<span> UserAccount </span>Testing type: Black &amp; White Box # Method Test Data Input type Expected Outcome 1<span> Account </span>(String name, String userName, String password, String accountType, boolean encrypt)<span> “Romisha”, “Romisha”, “Romisha123”, </span>“Home”. Valid All<span> account </span>details are set by constructor without<span> encrypted </span>password. Test Execution Source Code Output Test Results # Method Test Data Input type Expected<span> Outcome </span>Actual outcome as expected? 1<span> Account </span>(String name, String userName, String password, String accountType)<span> “Romisha”, “Romisha”, “Romisha123”, </span>“Home”. Valid All<span> account </span>details are set<span> by constructor </span>without<span> encrypted </span>password.. Yes Test Summary<span> As from above </span>test</a> results it can be deducted that the method tested showed matching expected outcome with actual outcome more over conducting blackbox test simultaneously resulted in every branches and lines in the method also being tested therefore both black and white box testing was executed successfully. <a href="javascript:openDSC(66037661, 2, '2840');" onmouseover="doRollover(3);" onmouseout="undoRollover(3);" id="2840" name="3" style="color:blue" class="blue"><span class="b-ref">3</span>Test Suite No.<span> 7: </span>Testing class:<span> Transaction </span>Testing type: Black &amp; White Box Test Execution Source Code Output Test Results Test Summary As from above</a> test results it can be deducted that the method tested showed matching expected outcome with actual outcome more over conducting blackbox test simultaneously resulted in every branches and lines in the method also being tested therefore both black and white box testing was executed successfully. <a href="javascript:openDSC(66037661, 2, '2844');" onmouseover="doRollover(3);" onmouseout="undoRollover(3);" id="2844" name="3" style="color:blue" class="blue"><span class="b-ref">3</span>Test Suite No.<span> 8: </span>Testing class:<span> Transaction </span>Testing type: Black &amp; White Box Test Execution Source Code Output Test Results Test Summary As from above</a> test results it can be deducted that the method tested showed matching expected outcome with actual outcome more over conducting blackbox test simultaneously resulted in every branches and lines in the method also being tested therefore both black and white box testing was executed successfully. <a href="javascript:openDSC(66037661, 2, '2848');" onmouseover="doRollover(3);" onmouseout="undoRollover(3);" id="2848" name="3" style="color:blue" class="blue"><span class="b-ref">3</span>Test Suite No.<span> 9: </span>Testing class:<span> Trigger </span>Testing type: Black &amp; White box Test Execution Source Code Output Test Results Test Summary As from above</a> test results it can be deducted that the method tested showed matching expected outcome with actual outcome more over conducting blackbox test simultaneously resulted in every branches and lines in the method also being tested therefore both black and white box testing was executed successfully. <a href="javascript:openDSC(66037661, 2, '2852');" onmouseover="doRollover(3);" onmouseout="undoRollover(3);" id="2852" name="3" style="color:blue" class="blue"><span class="b-ref">3</span>Test Suite No.<span> 10: </span>Testing class:<span> Trigger </span>Testing type: Black &amp; White box Test Execution Source Code Output Test Results Test Summary As from above</a> test results it can be deducted that the method tested showed matching expected outcome with actual outcome more over conducting blackbox test simultaneously resulted in every branches and lines in the method also being tested therefore both black and white box testing was executed successfully. <a href="javascript:openDSC(66037661, 2, '2856');" onmouseover="doRollover(3);" onmouseout="undoRollover(3);" id="2856" name="3" style="color:blue" class="blue"><span class="b-ref">3</span>Test Suite No.<span> 11: </span>Testing class:<span> FormRegistration </span>Testing type: Black Box Test Execution Source Code Output Test Results Test Summary As from above</a> test results it can be deducted that the method tested showed matching expected outcome with actual outcome . <a href="javascript:openDSC(66039491, 2, '5535');" onmouseover="doRollover(4);" onmouseout="undoRollover(4);" id="5535" name="4" style="color:brown" class="brown"><span class="b-ref">4</span>Test Suite No.12: Testing class:<span> FormRegistration </span>Testing type:<span> Black </span>Box # Method Test Data Input type Expected Outcome 1 void<span> written Connections </span>(String ACType)<span> “Shared” </span>Valid Blank user added to Home account<span> of file </span>Connections.</a> txt. <a href="javascript:openDSC(66042283, 2, '6619');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="6619" name="1" style="color:red" class="red"><span class="b-ref">1</span>Test Execution Source Code Output Test Results # Method Test Data Input type Expected Outcome Actual Outcome as Expected? 1<span> VoidWrittenConnection </span>Shared valid</a><a href="javascript:openDSC(66042283, 2, '6781');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="6781" name="1" style="color:red" class="red"><span class="b-ref">1</span>Blank user added to Home account<span> of file </span>Connections.<span> txt. </span>Yes Test Summary</a> As from above test results it can be deducted that the method tested showed matching expected outcome with actual outcome . <a href="javascript:openDSC(66039491, 2, '5542');" onmouseover="doRollover(4);" onmouseout="undoRollover(4);" id="5542" name="4" style="color:brown" class="brown"><span class="b-ref">4</span>Test Suite No.<span> 13: </span>Testing class:<span> FormRegistration </span>Testing type: White Box # Method Test Data Input type Expected Outcome 1 void writeConnections(String ACType) “Home” Valid Blank user added to Home account<span> of file </span>Connections.<span> txt. </span>2 void writeConnections(String ACType) “Discretionary” Valid Blank users</a> added to Home account is printed <a href="javascript:openDSC(66042283, 2, '6705');" onmouseover="doRollover(1);" onmouseout="undoRollover(1);" id="6705" name="1" style="color:red" class="red"><span class="b-ref">1</span>in “Connection.<span> txt: </span>file. Test Execution Source Code Output Test Results # Method Test Data Input type Expected Outcome Actual Outcome as Expected? 1 void writeConnections(String ACType) “Home” Valid Blank user added to Home account<span> of file </span>Connections.<span> txt. </span>Yes 2 void writeConnections(String ACType) “Discretionary” Valid Blank<span> users </span>added to Home account<span> is printed </span>in<span> “Connection.txt: </span>file. Yes Test Summary</a> Each lines and branches were tested with the above test cases . No errors were found during test execution therefore white box testing was conducted successfully. Exception Handling ? Exception handling was done in Transaction_Dealer TransactionEntryForm TriggerEntryForm 2nd Task: Exception Handling TransactionDealer TransactionEntryForm TriggerEntryForm Exceptions handling was done similarly for other classes too. This is available in the Task1 section in the source code of this assignment file. 3rd Task: Class Diagram 4th Task: Integration (Testing) Form(LogIn) Form(Registration) Data input in transaction: Update of transaction: Data Deletion: Addition of trigger: Balance Estimation: Account deletion: Conclusion Budget Application was developed successfully using object oriented programming approach. Several OO features and programming elements were used such as polymorphism, encapsulation, file handing, String manipulation &amp; so on. UML class diagram was developed to give an overview of the relationships between the classes. Unit testing &amp; integration testing was carried out and documented. The application will benefit the user by providing transaction details recording feature with account management &amp; estimation. Also, triggers could be set for automated entry. 
+</div>
+</div>
+</body>
+</html>

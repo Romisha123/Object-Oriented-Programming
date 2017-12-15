@@ -1,0 +1,6 @@
+|PaulCopan|,|PaulCopan|,|dpqbo234|,|Discretionary|
+|a|,|a|,|2|,|Home|
+|b|,|b|,|c|,|Discretionary|
+|Romisha|,|Romisha|,|spnjtib|,|Home||Romi|,|Romi|,|spnj|,|Home|
+|ram|,|ram|,|sbn|,|Home|
+|ro|,|ro|,|sp|,|Home|
